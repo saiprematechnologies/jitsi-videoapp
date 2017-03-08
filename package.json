@@ -4,7 +4,7 @@
   "description": "A sample app for the Jitsi Videobridge",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet"
+    "url": "git://github.com/saiprematechnologies/jitsi-videoapp"
   },
   "keywords": [
     "jingle",
@@ -33,7 +33,7 @@
     "jquery-ui": "1.10.5",
     "jssha": "1.5.0",
     "jws": "3.1.4",
-    "lib-jitsi-meet": "jitsi/lib-jitsi-meet",
+    "lib-jitsi-meet": "saiprematechnologies/lib-jitsi-meet",
     "postis": "2.2.0",
     "react": "15.4.2",
     "react-dom": "15.4.2",
