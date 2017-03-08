@@ -33,7 +33,7 @@
     "jquery-ui": "1.10.5",
     "jssha": "1.5.0",
     "jws": "3.1.4",
-    "lib-jitsi-meet": "saiprematechnologies/lib-jitsi-meet",
+    "lib-jitsi-meet": "saiprematechnologies/lib-jitsi-meet#lib-jitsi-meet-dev",
     "postis": "2.2.0",
     "react": "15.4.2",
     "react-dom": "15.4.2",
