@@ -19,7 +19,7 @@ update-deps:
 	$(NPM) update && $(NPM) install node-sass
 
 compile:
-	$(WEBPACK) -p
+	$(WEBPACK)
 
 clean:
 	rm -fr $(BUILD_DIR)
@@ -31,17 +31,17 @@ deploy-init:
 
 deploy-appbundle:
 	cp \
-		$(BUILD_DIR)/app.bundle.min.js \
-		$(BUILD_DIR)/app.bundle.min.map \
-		$(BUILD_DIR)/external_api.min.js \
-		$(BUILD_DIR)/external_api.min.map \
+		$(BUILD_DIR)/app.bundle.js \
+		$(BUILD_DIR)/app.bundle.map \
+		$(BUILD_DIR)/external_api.js \
+		$(BUILD_DIR)/external_api.map \
 		$(OUTPUT_DIR)/analytics.js \
 		$(DEPLOY_DIR)
 
 deploy-lib-jitsi-meet:
 	cp \
-		$(LIBJITSIMEET_DIR)/lib-jitsi-meet.min.js \
-		$(LIBJITSIMEET_DIR)/lib-jitsi-meet.min.map \
+		$(LIBJITSIMEET_DIR)/lib-jitsi-meet.js \
+		$(LIBJITSIMEET_DIR)/lib-jitsi-meet.map \
 		$(LIBJITSIMEET_DIR)/connection_optimization/external_connect.js \
 		$(DEPLOY_DIR)
 
